@@ -1,0 +1,172 @@
+{
+  "Metadata": {
+    "title": "Villa Lola — Coastal Villa in Menorca",
+    "description": "A charming 3-bedroom Menorcan style villa in Cap d'Artrutx with sea views, private pool, and breathtaking sunsets. Your coastal escape in the Balearics.",
+    "ogDescription": "3-bedroom villa with sea views, private pool, and sunset terrace in Menorca. Book your coastal escape at Villa Lola."
+  },
+  "Navbar": {
+    "about": "About",
+    "spaces": "Spaces",
+    "gallery": "Gallery",
+    "location": "Location",
+    "activities": "Activities",
+    "booking": "Book Now"
+  },
+  "Hero": {
+    "tagline": "Your Coastal Escape in Menorca",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "guests": "Guests",
+    "seaView": "Sea View",
+    "scroll": "Discover more"
+  },
+  "About": {
+    "label": "About the Villa",
+    "title": "Welcome to Villa Lola",
+    "p1": "Perched in the peaceful neighbourhood of Cap d'Artrutx on Menorca's stunning southwest coast, Villa Lola is a charming two-storey Menorcan style villa that captures the essence of island living.",
+    "p2": "With a private pool, Mediterranean garden, and a terrace offering sweeping sea views and unforgettable sunsets, Villa Lola is the perfect retreat for families and friends looking for tranquillity and beauty.",
+    "p3": "Just a short stroll from Cala en Bosc beach, local restaurants, and the iconic Cap d'Artrutx lighthouse, you'll find everything you need for a relaxed and memorable Menorcan holiday."
+  },
+  "Spaces": {
+    "label": "Our Spaces",
+    "title": "Every Corner Tells a Story",
+    "subtitle": "Discover the spaces that make Villa Lola your perfect coastal retreat",
+    "pool": {
+      "title": "Private Pool",
+      "description": "A sparkling private pool surrounded by Mediterranean landscaping — your own oasis under the Menorcan sun."
+    },
+    "seaViews": {
+      "title": "Terrace & Sea Views",
+      "description": "A spectacular terrace with panoramic sea views — the perfect spot to watch the sun set over the Mediterranean."
+    },
+    "garden": {
+      "title": "Mediterranean Garden",
+      "description": "Lush gardens with native plants and shaded corners, creating a peaceful natural retreat."
+    },
+    "bbq": {
+      "title": "Outdoor BBQ & Dining",
+      "description": "A fully equipped BBQ area with outdoor dining — perfect for long summer evenings under the stars."
+    },
+    "living": {
+      "title": "Living Room",
+      "description": "A bright, airy living space with comfortable furnishings and air conditioning throughout."
+    },
+    "kitchen": {
+      "title": "Fully Equipped Kitchen",
+      "description": "A modern kitchen with everything you need to prepare local recipes or your favourite meals."
+    },
+    "bedrooms": {
+      "title": "3 Bedrooms",
+      "description": "Three beautifully appointed bedrooms with quality linens, air conditioning, and natural light."
+    },
+    "bathrooms": {
+      "title": "2 Bathrooms",
+      "description": "Two well-appointed bathrooms with modern fixtures and complimentary toiletries."
+    }
+  },
+  "Gallery": {
+    "label": "Gallery",
+    "title": "A Glimpse of Paradise",
+    "subtitle": "Explore the beauty of Villa Lola through our photo gallery",
+    "all": "All",
+    "livingAreas": "Living & Common Areas",
+    "bedrooms": "Bedrooms & Bathrooms",
+    "poolGarden": "Pool & Garden"
+  },
+  "Location": {
+    "label": "Location",
+    "title": "Perfectly Placed in Cap d'Artrutx",
+    "subtitle": "Everything you need is just moments away",
+    "beach": {
+      "title": "Cala en Bosc Beach",
+      "distance": "15 min walk · 4 min drive",
+      "description": "A beautiful sandy beach with crystal-clear waters, water sports, and beachfront restaurants"
+    },
+    "restaurants": {
+      "title": "Restaurants & Shops",
+      "distance": "5 min walk",
+      "description": "A variety of restaurants, cafés, and shops within easy walking distance"
+    },
+    "lighthouse": {
+      "title": "Cap d'Artrutx Lighthouse",
+      "distance": "5 min walk",
+      "description": "One of Menorca's most beautiful lighthouses — a stunning spot to watch the sunset every evening"
+    },
+    "camiCavalls": {
+      "title": "Camí de Cavalls",
+      "distance": "Right next to the villa",
+      "description": "Direct access to Menorca's iconic 185 km coastal hiking trail"
+    },
+    "ciutadella": {
+      "title": "Ciutadella",
+      "distance": "10 min drive",
+      "description": "Menorca's historic western capital with a medieval old town, harbour, and vibrant nightlife"
+    },
+    "airport": {
+      "title": "Mahón Airport",
+      "distance": "40 min drive",
+      "description": "Well-connected airport with direct flights from major European cities"
+    }
+  },
+  "Activities": {
+    "label": "Things to Do",
+    "title": "Discover Menorca",
+    "subtitle": "An island of endless experiences awaits you",
+    "beaches": {
+      "title": "Beach Hopping",
+      "description": "Explore Menorca's stunning calas — from the turquoise waters of Cala Macarella to the golden sands of Son Bou."
+    },
+    "hiking": {
+      "title": "Camí de Cavalls",
+      "description": "Walk the ancient 185 km coastal path that circles the entire island, offering breathtaking views at every turn."
+    },
+    "towns": {
+      "title": "Ciutadella & Mahón",
+      "description": "Visit the island's two charming cities — Ciutadella with its medieval old town and Mahón with its natural harbour."
+    },
+    "gastronomy": {
+      "title": "Local Gastronomy",
+      "description": "Savour fresh seafood, traditional caldereta de langosta, Mahón cheese, and local wines at authentic restaurants."
+    },
+    "watersports": {
+      "title": "Water Sports",
+      "description": "Kayaking, snorkelling, paddleboarding, and sailing in the crystal-clear Mediterranean waters."
+    }
+  },
+  "Booking": {
+    "label": "Book Your Stay",
+    "title": "Reserve Your Coastal Escape",
+    "subtitle": "Book directly for the best rates, or find us on your preferred platform",
+    "directTitle": "Book Directly",
+    "directBenefit": "Save on platform fees — best price guaranteed",
+    "platformsTitle": "Also Available On",
+    "airbnb": "Book on Airbnb",
+    "bookingcom": "Book on Booking.com",
+    "vrbo": "Book on VRBO",
+    "expedia": "Book on Expedia"
+  },
+  "Contact": {
+    "title": "Send Us a Message",
+    "name": "Your Name",
+    "email": "Email Address",
+    "required": "This field is required",
+    "checkin": "Check-in Date",
+    "checkout": "Check-out Date",
+    "guests": "Number of Guests",
+    "message": "Your Message",
+    "messagePlaceholder": "Tell us about your ideal stay at Villa Lola...",
+    "submit": "Send Enquiry",
+    "sending": "Sending...",
+    "checkoutError": "Check-out must be after check-in",
+    "success": "Thank you! We'll get back to you very soon.",
+    "error": "Something went wrong. Please try again or contact us directly."
+  },
+  "Footer": {
+    "description": "A charming Menorcan style villa in Cap d'Artrutx, Menorca. Your coastal escape with sea views and sunsets.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "madeWith": "Made with love in Menorca",
+    "partOf": "Part of"
+  }
+}

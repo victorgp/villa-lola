@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ocean: #1B4965;
+  --color-ocean-light: #2A7FBA;
+  --color-ocean-dark: #143A52;
+  --color-seafoam: #62B6CB;
+  --color-seafoam-light: #89CDD9;
+  --color-seafoam-dark: #4A9AB0;
+  --color-sand: #E8D5B0;
+  --color-sand-light: #F2EAD8;
+  --color-sand-dark: #D4C09A;
+  --color-pearl: #F8FAFB;
+  --color-pearl-blue: #EFF6F9;
+  --color-navy: #0B2545;
+  --color-navy-light: #3D5A6E;
+  --color-sunset: #D4956A;
+  --color-sunset-light: #DFB088;
+  --color-sunset-dark: #C07E4E;
+
+  --font-heading: var(--font-cormorant);
+  --font-body: var(--font-nunito);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-pearl);
+  color: var(--color-navy);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), Georgia, serif;
+}
+
+::selection {
+  background-color: var(--color-ocean);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-pearl);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-seafoam-dark);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ocean-light);
+}

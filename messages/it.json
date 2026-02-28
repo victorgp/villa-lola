@@ -1,0 +1,172 @@
+{
+  "Metadata": {
+    "title": "Villa Lola — Villa sul mare a Minorca",
+    "description": "Un'affascinante villa in stile minorchino con 3 camere a Cap d'Artrutx con vista mare, piscina privata e tramonti mozzafiato. La tua fuga costiera alle Baleari.",
+    "ogDescription": "Villa 3 camere con vista mare, piscina privata e terrazza al tramonto a Minorca. Prenota la tua fuga costiera a Villa Lola."
+  },
+  "Navbar": {
+    "about": "La Villa",
+    "spaces": "Spazi",
+    "gallery": "Galleria",
+    "location": "Posizione",
+    "activities": "Attività",
+    "booking": "Prenota"
+  },
+  "Hero": {
+    "tagline": "La tua fuga costiera a Minorca",
+    "bedrooms": "Camere",
+    "bathrooms": "Bagni",
+    "guests": "Ospiti",
+    "seaView": "Vista mare",
+    "scroll": "Scopri di più"
+  },
+  "About": {
+    "label": "La villa",
+    "title": "Benvenuti a Villa Lola",
+    "p1": "Appollaiata nel tranquillo quartiere di Cap d'Artrutx sulla splendida costa sudoccidentale di Minorca, Villa Lola è un'affascinante villa su due piani in stile minorchino che cattura l'essenza della vita sull'isola.",
+    "p2": "Con piscina privata, giardino mediterraneo e una terrazza che regala ampie viste sul mare e tramonti indimenticabili, Villa Lola è il rifugio perfetto per famiglie e amici in cerca di tranquillità e bellezza.",
+    "p3": "A pochi passi dalla spiaggia di Cala en Bosc, dai ristoranti locali e dall'iconico faro di Cap d'Artrutx, troverai tutto ciò che serve per una vacanza minorchina rilassata e memorabile."
+  },
+  "Spaces": {
+    "label": "I nostri spazi",
+    "title": "Ogni angolo racconta una storia",
+    "subtitle": "Scopri gli spazi che rendono Villa Lola il tuo rifugio costiero perfetto",
+    "pool": {
+      "title": "Piscina privata",
+      "description": "Una scintillante piscina privata circondata da vegetazione mediterranea — il tuo oasis personale sotto il sole minorchino."
+    },
+    "seaViews": {
+      "title": "Terrazza e vista mare",
+      "description": "Una spettacolare terrazza con vista panoramica sul mare — il posto perfetto per ammirare il sole che tramonta sul Mediterraneo."
+    },
+    "garden": {
+      "title": "Giardino mediterraneo",
+      "description": "Rigogliosi giardini con piante autoctone e angoli ombreggiati, che creano un tranquillo rifugio nella natura."
+    },
+    "bbq": {
+      "title": "BBQ e pranzo all'aperto",
+      "description": "Un'area barbecue completamente attrezzata con zona pranzo esterna — perfetta per lunghe serate estive sotto le stelle."
+    },
+    "living": {
+      "title": "Soggiorno",
+      "description": "Un luminoso soggiorno aerato con mobilio comodo e aria condizionata in tutta la casa."
+    },
+    "kitchen": {
+      "title": "Cucina completamente attrezzata",
+      "description": "Una cucina moderna con tutto il necessario per preparare ricette locali o i tuoi piatti preferiti."
+    },
+    "bedrooms": {
+      "title": "3 camere",
+      "description": "Tre camere eleganti con biancheria di qualità, aria condizionata e luce naturale."
+    },
+    "bathrooms": {
+      "title": "2 bagni",
+      "description": "Due bagni ben rifiniti con sanitari moderni e articoli da toilette."
+    }
+  },
+  "Gallery": {
+    "label": "Galleria",
+    "title": "Uno scorcio di paradiso",
+    "subtitle": "Esplora la bellezza di Villa Lola nella nostra galleria fotografica",
+    "all": "Tutto",
+    "livingAreas": "Soggiorno e aree comuni",
+    "bedrooms": "Camere e bagni",
+    "poolGarden": "Piscina e giardino"
+  },
+  "Location": {
+    "label": "Posizione",
+    "title": "Perfettamente situata a Cap d'Artrutx",
+    "subtitle": "Tutto ciò che ti serve è a due passi",
+    "beach": {
+      "title": "Spiaggia di Cala en Bosc",
+      "distance": "15 min a piedi · 4 min in auto",
+      "description": "Una bellissima spiaggia di sabbia con acque cristalline, sport acquatici e ristoranti sul mare"
+    },
+    "restaurants": {
+      "title": "Ristoranti e negozi",
+      "distance": "5 min a piedi",
+      "description": "Una varietà di ristoranti, caffetterie e negozi a pochi passi"
+    },
+    "lighthouse": {
+      "title": "Faro di Cap d'Artrutx",
+      "distance": "5 min a piedi",
+      "description": "Uno dei fari più belli di Minorca — un luogo incantevole per ammirare il tramonto ogni sera"
+    },
+    "camiCavalls": {
+      "title": "Camí de Cavalls",
+      "distance": "Proprio accanto alla villa",
+      "description": "Accesso diretto al celebre sentiero costiero di 185 km di Minorca"
+    },
+    "ciutadella": {
+      "title": "Ciutadella",
+      "distance": "10 min in auto",
+      "description": "L'antica capitale occidentale di Minorca con centro storico medievale, porto e vivace vita notturna"
+    },
+    "airport": {
+      "title": "Aeroporto di Mahón",
+      "distance": "40 min in auto",
+      "description": "Aeroporto ben collegato con voli diretti dalle principali città europee"
+    }
+  },
+  "Activities": {
+    "label": "Cosa fare",
+    "title": "Scopri Minorca",
+    "subtitle": "Un'isola di esperienze infinite ti aspetta",
+    "beaches": {
+      "title": "Spiagge e calette",
+      "description": "Esplora le splendide calas di Minorca — dalle acque turchesi di Cala Macarella alle sabbie dorate di Son Bou."
+    },
+    "hiking": {
+      "title": "Camí de Cavalls",
+      "description": "Percorri l'antico sentiero costiero di 185 km che circonda l'intera isola, con viste mozzafiato ad ogni svolta."
+    },
+    "towns": {
+      "title": "Ciutadella e Mahón",
+      "description": "Visita le due incantevoli città dell'isola — Ciutadella con il suo centro storico medievale e Mahón con il suo porto naturale."
+    },
+    "gastronomy": {
+      "title": "Gastronomia locale",
+      "description": "Assapora pesce fresco, caldereta de langosta tradizionale, formaggio di Mahón e vini locali nei ristoranti autentici."
+    },
+    "watersports": {
+      "title": "Sport acquatici",
+      "description": "Kayak, snorkeling, paddleboard e vela nelle acque cristalline del Mediterraneo."
+    }
+  },
+  "Booking": {
+    "label": "Prenota il tuo soggiorno",
+    "title": "Riserva la tua fuga costiera",
+    "subtitle": "Prenota direttamente per le migliori tariffe, o cercaci sulla tua piattaforma preferita",
+    "directTitle": "Prenota direttamente",
+    "directBenefit": "Risparmia sulle commissioni di piattaforma — miglior prezzo garantito",
+    "platformsTitle": "Disponibile anche su",
+    "airbnb": "Prenota su Airbnb",
+    "bookingcom": "Prenota su Booking.com",
+    "vrbo": "Prenota su VRBO",
+    "expedia": "Prenota su Expedia"
+  },
+  "Contact": {
+    "title": "Inviaci un messaggio",
+    "name": "Il tuo nome",
+    "email": "Indirizzo email",
+    "checkin": "Data di arrivo",
+    "checkout": "Data di partenza",
+    "guests": "Numero di ospiti",
+    "message": "Il tuo messaggio",
+    "messagePlaceholder": "Raccontaci della tua permanenza ideale a Villa Lola...",
+    "submit": "Invia richiesta",
+    "sending": "Invio in corso...",
+    "required": "Questo campo è obbligatorio",
+    "checkoutError": "La data di partenza deve essere successiva a quella di arrivo",
+    "success": "Grazie! Ti risponderemo molto presto.",
+    "error": "Qualcosa è andato storto. Riprova o contattaci direttamente."
+  },
+  "Footer": {
+    "description": "Un'affascinante villa in stile minorchino a Cap d'Artrutx, Minorca. La tua fuga costiera con vista mare e tramonti.",
+    "quickLinks": "Link rapidi",
+    "contact": "Contatti",
+    "rights": "Tutti i diritti riservati.",
+    "madeWith": "Fatto con amore a Minorca",
+    "partOf": "Parte di"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "Metadata": {
+    "title": "Villa Lola — Ferienvilla am Meer auf Menorca",
+    "description": "Eine charmante Menorquinische Villa mit 3 Schlafzimmern in Cap d'Artrutx mit Meerblick, Privatpool und atemberaubenden Sonnenuntergängen. Ihr Küstenurlaub auf den Balearen.",
+    "ogDescription": "3-Zimmer-Villa mit Meerblick, Privatpool und Sonnenuntergang-Terrasse auf Menorca. Buchen Sie Ihren Küstenurlaub in der Villa Lola."
+  },
+  "Navbar": {
+    "about": "Die Villa",
+    "spaces": "Räume",
+    "gallery": "Galerie",
+    "location": "Lage",
+    "activities": "Aktivitäten",
+    "booking": "Jetzt buchen"
+  },
+  "Hero": {
+    "tagline": "Ihr Küstenurlaub auf Menorca",
+    "bedrooms": "Schlafzimmer",
+    "bathrooms": "Badezimmer",
+    "guests": "Gäste",
+    "seaView": "Meerblick",
+    "scroll": "Mehr entdecken"
+  },
+  "About": {
+    "label": "Über die Villa",
+    "title": "Willkommen in der Villa Lola",
+    "p1": "Hoch über der ruhigen Nachbarschaft von Cap d'Artrutx an Menorcas atemberaubender Südwestküste gelegen, ist die Villa Lola eine charmante zweistöckige Villa im menorquinischen Stil, die das Wesen des Insellebens einfängt.",
+    "p2": "Mit Privatpool, mediterranem Garten und einer Terrasse mit weitem Meerblick und unvergesslichen Sonnenuntergängen ist die Villa Lola der perfekte Rückzugsort für Familien und Freunde, die Ruhe und Schönheit suchen.",
+    "p3": "Nur einen kurzen Spaziergang von der Cala en Bosc entfernt, von lokalen Restaurants und dem ikonischen Leuchtturm Cap d'Artrutx, finden Sie alles, was Sie für einen entspannten und unvergesslichen Menorca-Urlaub brauchen."
+  },
+  "Spaces": {
+    "label": "Unsere Räume",
+    "title": "Jede Ecke erzählt eine Geschichte",
+    "subtitle": "Entdecken Sie die Räume, die die Villa Lola zu Ihrem perfekten Küstenrefugium machen",
+    "pool": {
+      "title": "Privatpool",
+      "description": "Ein glitzernder Privatpool, umgeben von mediterraner Vegetation — Ihre eigene Oase unter der menorquinischen Sonne."
+    },
+    "seaViews": {
+      "title": "Terrasse & Meerblick",
+      "description": "Eine spektakuläre Terrasse mit Panoramablick aufs Meer — der ideale Platz, um die Sonne über dem Mittelmeer untergehen zu sehen."
+    },
+    "garden": {
+      "title": "Mediterraner Garten",
+      "description": "Üppige Gärten mit heimischen Pflanzen und schattigen Plätzen, die einen friedlichen Rückzugsort in der Natur schaffen."
+    },
+    "bbq": {
+      "title": "Außen-Grill & Essbereich",
+      "description": "Ein voll ausgestatteter Grillbereich mit Außen-Esszimmer — perfekt für lange Sommerabende unter den Sternen."
+    },
+    "living": {
+      "title": "Wohnzimmer",
+      "description": "Ein heller, luftiger Wohnraum mit komfortablen Möbeln und Klimaanlage in allen Bereichen."
+    },
+    "kitchen": {
+      "title": "Voll ausgestattete Küche",
+      "description": "Eine moderne Küche mit allem, was Sie brauchen, um lokale Rezepte oder Ihre Lieblingsgerichte zuzubereiten."
+    },
+    "bedrooms": {
+      "title": "3 Schlafzimmer",
+      "description": "Drei stilvoll eingerichtete Schlafzimmer mit hochwertiger Bettwäsche, Klimaanlage und Tageslicht."
+    },
+    "bathrooms": {
+      "title": "2 Badezimmer",
+      "description": "Zwei gut ausgestattete Badezimmer mit modernen Armaturen und kostenlosen Toilettenartikeln."
+    }
+  },
+  "Gallery": {
+    "label": "Galerie",
+    "title": "Ein Blick ins Paradies",
+    "subtitle": "Entdecken Sie die Schönheit der Villa Lola in unserer Fotogalerie",
+    "all": "Alle",
+    "livingAreas": "Wohn- und Gemeinschaftsbereiche",
+    "bedrooms": "Schlafzimmer & Badezimmer",
+    "poolGarden": "Pool & Garten"
+  },
+  "Location": {
+    "label": "Lage",
+    "title": "Ideale Lage in Cap d'Artrutx",
+    "subtitle": "Alles, was Sie brauchen, ist nur wenige Schritte entfernt",
+    "beach": {
+      "title": "Strand Cala en Bosc",
+      "distance": "15 Min. zu Fuß · 4 Min. mit dem Auto",
+      "description": "Ein wunderschöner Sandstrand mit kristallklarem Wasser, Wassersport und Strandrestaurants"
+    },
+    "restaurants": {
+      "title": "Restaurants & Geschäfte",
+      "distance": "5 Min. zu Fuß",
+      "description": "Verschiedene Restaurants, Cafés und Geschäfte in unmittelbarer Nähe"
+    },
+    "lighthouse": {
+      "title": "Leuchtturm Cap d'Artrutx",
+      "distance": "5 Min. zu Fuß",
+      "description": "Einer der schönsten Leuchttürme Menorcas — ein atemberaubender Ort für den abendlichen Sonnenuntergang"
+    },
+    "camiCavalls": {
+      "title": "Camí de Cavalls",
+      "distance": "Direkt neben der Villa",
+      "description": "Direkter Zugang zu Menorcas bekanntem 185 km langen Küstenwanderweg"
+    },
+    "ciutadella": {
+      "title": "Ciutadella",
+      "distance": "10 Min. mit dem Auto",
+      "description": "Menorcas historische westliche Hauptstadt mit mittelalterlicher Altstadt, Hafen und lebhaftem Nachtleben"
+    },
+    "airport": {
+      "title": "Flughafen Mahón",
+      "distance": "40 Min. mit dem Auto",
+      "description": "Gut erreichbarer Flughafen mit Direktflügen aus den wichtigsten europäischen Städten"
+    }
+  },
+  "Activities": {
+    "label": "Aktivitäten",
+    "title": "Menorca entdecken",
+    "subtitle": "Eine Insel mit unendlichen Erlebnissen erwartet Sie",
+    "beaches": {
+      "title": "Strandhopping",
+      "description": "Entdecken Sie Menorcas atemberaubende Buchten — vom türkisfarbenen Wasser der Cala Macarella bis zu den goldgelben Sanden von Son Bou."
+    },
+    "hiking": {
+      "title": "Camí de Cavalls",
+      "description": "Wandern Sie auf dem alten 185 km langen Küstenweg, der die gesamte Insel umrundet und an jeder Biegung spektakuläre Ausblicke bietet."
+    },
+    "towns": {
+      "title": "Ciutadella & Mahón",
+      "description": "Besuchen Sie die beiden charmanten Städte der Insel — Ciutadella mit ihrer mittelalterlichen Altstadt und Mahón mit ihrem Naturhafen."
+    },
+    "gastronomy": {
+      "title": "Lokale Gastronomie",
+      "description": "Genießen Sie frische Meeresfrüchte, traditionelle Caldereta de Langosta, Mahón-Käse und lokale Weine in authentischen Restaurants."
+    },
+    "watersports": {
+      "title": "Wassersport",
+      "description": "Kajakfahren, Schnorcheln, Paddeln und Segeln im kristallklaren Mittelmeer."
+    }
+  },
+  "Booking": {
+    "label": "Buchen Sie Ihren Aufenthalt",
+    "title": "Reservieren Sie Ihren Küstenurlaub",
+    "subtitle": "Buchen Sie direkt zum besten Preis, oder finden Sie uns auf Ihrer bevorzugten Plattform",
+    "directTitle": "Direkt buchen",
+    "directBenefit": "Sparen Sie Plattformgebühren — bester Preis garantiert",
+    "platformsTitle": "Auch verfügbar auf",
+    "airbnb": "Bei Airbnb buchen",
+    "bookingcom": "Bei Booking.com buchen",
+    "vrbo": "Bei VRBO buchen",
+    "expedia": "Bei Expedia buchen"
+  },
+  "Contact": {
+    "title": "Schicken Sie uns eine Nachricht",
+    "name": "Ihr Name",
+    "email": "E-Mail-Adresse",
+    "checkin": "Anreisedatum",
+    "checkout": "Abreisedatum",
+    "guests": "Anzahl der Gäste",
+    "message": "Ihre Nachricht",
+    "messagePlaceholder": "Erzählen Sie uns von Ihrem idealen Aufenthalt in der Villa Lola...",
+    "submit": "Anfrage senden",
+    "sending": "Wird gesendet...",
+    "required": "Dieses Feld ist erforderlich",
+    "checkoutError": "Das Abreisedatum muss nach dem Anreisedatum liegen",
+    "success": "Vielen Dank! Wir melden uns in Kürze bei Ihnen.",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt."
+  },
+  "Footer": {
+    "description": "Eine charmante Villa im menorquinischen Stil in Cap d'Artrutx, Menorca. Ihr Küstenurlaub mit Meerblick und Sonnenuntergängen.",
+    "quickLinks": "Schnelllinks",
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten.",
+    "madeWith": "Mit Liebe auf Menorca gemacht",
+    "partOf": "Teil von"
+  }
+}
