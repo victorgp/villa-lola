@@ -28,3 +28,10 @@ export function getAlternateLanguages(): Record<string, string> {
 export function getCanonicalUrl(locale: Locale): string {
   return `${SITE_URL}/${locale}`;
 }
+
+const OG_IMAGE_BLOB_URL =
+  "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-front.jpg";
+
+export function getOgImageUrl(): string {
+  return `${SITE_URL}/_next/image?url=${encodeURIComponent(OG_IMAGE_BLOB_URL)}&w=1200&q=75`;
+}

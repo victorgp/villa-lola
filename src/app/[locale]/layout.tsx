@@ -9,6 +9,7 @@ import {
   getOgLocale,
   getAlternateLanguages,
   getCanonicalUrl,
+  getOgImageUrl,
 } from "@/lib/seo";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -72,7 +73,7 @@ export async function generateMetadata({
       siteName: "Villa Lola",
       images: [
         {
-          url: `${SITE_URL}/images/og-villa-lola.jpg`,
+          url: getOgImageUrl(),
           width: 1200,
           height: 630,
           alt: "Villa Lola — Coastal Villa in Menorca",
@@ -83,7 +84,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: t("title"),
       description: t("ogDescription"),
-      images: [`${SITE_URL}/images/og-villa-lola.jpg`],
+      images: [getOgImageUrl()],
     },
     robots: {
       index: true,

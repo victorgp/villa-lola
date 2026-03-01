@@ -1,4 +1,4 @@
-import { SITE_URL } from "@/lib/seo";
+import { SITE_URL, getOgImageUrl } from "@/lib/seo";
 
 export default function JsonLd({ locale }: { locale: string }) {
   const schema = {
@@ -8,7 +8,7 @@ export default function JsonLd({ locale }: { locale: string }) {
     description:
       "A charming Menorcan style coastal villa in Cap d'Artrutx, Menorca with sea views, private pool, and stunning sunsets.",
     url: `${SITE_URL}/${locale}`,
-    image: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-front.jpg?auto=format&fit=crop&w=1200&q=80",
+    image: getOgImageUrl(),
     address: {
       "@type": "PostalAddress",
       addressLocality: "Cap d'Artrutx, Menorca",
