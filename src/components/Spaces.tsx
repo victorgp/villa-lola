@@ -25,42 +25,42 @@ const spaces: SpaceItem[] = [
   {
     key: "pool",
     icon: Waves,
-    image: "https://images.unsplash.com/photo-1572331165267-854da2b021b1?auto=format&fit=crop&w=600&q=80",
+    image: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-pool.jpg?auto=format&fit=crop&w=600&q=80",
   },
   {
     key: "seaViews",
     icon: Sunset,
-    image: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=600&q=80",
+    image: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-sunset.avif?auto=format&fit=crop&w=600&q=80",
   },
   {
     key: "garden",
     icon: Flower2,
-    image: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=600&q=80",
+    image: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-garden.jpg?auto=format&fit=crop&w=600&q=80",
   },
   {
     key: "bbq",
     icon: Flame,
-    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80",
+    image: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-outdoor-dining.jpg?auto=format&fit=crop&w=600&q=80",
   },
   {
     key: "living",
     icon: Sofa,
-    image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=600&q=80",
+    image: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-livingroom.jpg?auto=format&fit=crop&w=600&q=80",
   },
   {
     key: "kitchen",
     icon: ChefHat,
-    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=600&q=80",
+    image: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-kitchen.avif?auto=format&fit=crop&w=600&q=80",
   },
   {
     key: "bedrooms",
     icon: Bed,
-    image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80",
+    image: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-room.jpg?auto=format&fit=crop&w=600&q=80",
   },
   {
     key: "bathrooms",
     icon: Bath,
-    image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=600&q=80",
+    image: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-bathroom.avif?auto=format&fit=crop&w=600&q=80",
   },
 ];
 

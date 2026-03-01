@@ -18,6 +18,7 @@
     "bathrooms": "Banyos",
     "guests": "Hostes",
     "seaView": "Vista al mar",
+    "airCon": "A/C a totes les habitacions",
     "scroll": "Descobreix més"
   },
   "About": {
@@ -36,12 +37,12 @@
       "description": "Una piscina privada brillant envoltada de vegetació mediterrània: la teva petita oasi sota el sol menorquí."
     },
     "seaViews": {
-      "title": "Terrassa i vistes al mar",
-      "description": "Una espectacular terrassa amb vistes panoràmiques al mar: el lloc ideal per contemplar la posta de sol sobre la Mediterrània."
+      "title": "Terrassa i postes de sol",
+      "description": "Gaudeix d'una de les postes de sol més impressionants de Menorca des de la terrassa de la villa — primera fila per veure el cel daurat fondre's amb la Mediterrània."
     },
     "garden": {
       "title": "Jardí mediterrani",
-      "description": "Jardins frondosos amb plantes autòctones i racons ombrejats que creen un refugi natural en pau."
+      "description": "Un frondós jardí mediterrani amb buganvíl·lies en flor i oliveres, creant un refugi encantador i tranquil."
     },
     "bbq": {
       "title": "Barbacoa i menjador a l'aire lliure",
@@ -49,7 +50,7 @@
     },
     "living": {
       "title": "Saló",
-      "description": "Un espai de vida luminós i ventilat amb mobles còmodes i aire condicionat a tota la casa."
+      "description": "Un espai de vida luminós amb sostres alts, mobles còmodes i aire condicionat a tota la casa."
     },
     "kitchen": {
       "title": "Cuina totalment equipada",
@@ -61,7 +62,7 @@
     },
     "bathrooms": {
       "title": "2 banyos",
-      "description": "Dos banyos completament equipats amb griferia moderna i articles de tocador."
+      "description": "Dos banys complets, moderns i recentment reformats."
     }
   },
   "Gallery": {

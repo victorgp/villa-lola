@@ -18,6 +18,7 @@
     "bathrooms": "Bagni",
     "guests": "Ospiti",
     "seaView": "Vista mare",
+    "airCon": "A/C in tutte le stanze",
     "scroll": "Scopri di più"
   },
   "About": {
@@ -36,12 +37,12 @@
       "description": "Una scintillante piscina privata circondata da vegetazione mediterranea — il tuo oasis personale sotto il sole minorchino."
     },
     "seaViews": {
-      "title": "Terrazza e vista mare",
-      "description": "Una spettacolare terrazza con vista panoramica sul mare — il posto perfetto per ammirare il sole che tramonta sul Mediterraneo."
+      "title": "Terrazza e tramonti",
+      "description": "Goditi uno dei tramonti più spettacolari di Minorca dalla terrazza della villa — in prima fila per vedere il cielo dorato sciogliersi nel Mediterraneo."
     },
     "garden": {
       "title": "Giardino mediterraneo",
-      "description": "Rigogliosi giardini con piante autoctone e angoli ombreggiati, che creano un tranquillo rifugio nella natura."
+      "description": "Un rigoglioso giardino mediterraneo con bouganville in fiore e ulivi, che crea un rifugio incantevole e tranquillo."
     },
     "bbq": {
       "title": "BBQ e pranzo all'aperto",
@@ -49,7 +50,7 @@
     },
     "living": {
       "title": "Soggiorno",
-      "description": "Un luminoso soggiorno aerato con mobilio comodo e aria condizionata in tutta la casa."
+      "description": "Un luminoso soggiorno con soffitti alti, mobilio comodo e aria condizionata in tutta la casa."
     },
     "kitchen": {
       "title": "Cucina completamente attrezzata",
@@ -61,7 +62,7 @@
     },
     "bathrooms": {
       "title": "2 bagni",
-      "description": "Due bagni ben rifiniti con sanitari moderni e articoli da toilette."
+      "description": "Due bagni completi, moderni e recentemente ristrutturati."
     }
   },
   "Gallery": {

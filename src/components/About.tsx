@@ -22,7 +22,7 @@ export default function About() {
             <div className="relative">
               <div className="relative aspect-[4/5] overflow-hidden rounded-2xl shadow-2xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+                  src="https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-agua.jpg?auto=format&fit=crop&w=800&q=80"
                   alt="Menorca coast"
                   fill
                   className="object-cover"

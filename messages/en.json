@@ -18,6 +18,7 @@
     "bathrooms": "Bathrooms",
     "guests": "Guests",
     "seaView": "Sea View",
+    "airCon": "A/C in All Rooms",
     "scroll": "Discover more"
   },
   "About": {
@@ -36,12 +37,12 @@
       "description": "A sparkling private pool surrounded by Mediterranean landscaping — your own oasis under the Menorcan sun."
     },
     "seaViews": {
-      "title": "Terrace & Sea Views",
-      "description": "A spectacular terrace with panoramic sea views — the perfect spot to watch the sun set over the Mediterranean."
+      "title": "Terrace & Sunset Views",
+      "description": "Enjoy one of the most breathtaking sunsets in Menorca from the villa's terrace — a front-row seat to golden skies melting into the Mediterranean."
     },
     "garden": {
       "title": "Mediterranean Garden",
-      "description": "Lush gardens with native plants and shaded corners, creating a peaceful natural retreat."
+      "description": "A lush Mediterranean garden with blooming bougainvilleas and olive trees, creating a peaceful and charming retreat."
     },
     "bbq": {
       "title": "Outdoor BBQ & Dining",
@@ -49,7 +50,7 @@
     },
     "living": {
       "title": "Living Room",
-      "description": "A bright, airy living space with comfortable furnishings and air conditioning throughout."
+      "description": "A bright living space with high ceilings, comfortable furnishings, and air conditioning throughout."
     },
     "kitchen": {
       "title": "Fully Equipped Kitchen",
@@ -61,7 +62,7 @@
     },
     "bathrooms": {
       "title": "2 Bathrooms",
-      "description": "Two well-appointed bathrooms with modern fixtures and complimentary toiletries."
+      "description": "Two full bathrooms, modern and recently renovated."
     }
   },
   "Gallery": {

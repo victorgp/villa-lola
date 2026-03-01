@@ -7,23 +7,23 @@ import ScrollReveal from "./ScrollReveal";
 const activities = [
   {
     key: "beaches",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+    image: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-cala-macarelleta-beach.webp?auto=format&fit=crop&w=800&q=80",
   },
   {
     key: "hiking",
-    image: "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=600&q=80",
+    image: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-cami-de-cavalls.webp?auto=format&fit=crop&w=800&q=80",
   },
   {
     key: "towns",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=600&q=80",
+    image: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-ciutadella.jpg?auto=format&fit=crop&w=800&q=80",
   },
   {
     key: "gastronomy",
-    image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=600&q=80",
+    image: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/caldereta-langosta%20copy.webp?auto=format&fit=crop&w=800&q=80",
   },
   {
     key: "watersports",
-    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80",
+    image: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/menorca_kayak%20copy.webp?auto=format&fit=crop&w=800&q=80",
   },
 ] as const;
 
@@ -52,15 +52,17 @@ export default function Activities() {
           {activities.map(({ key, image }, i) => (
             <ScrollReveal key={key} delay={i * 0.08}>
               <div className="group relative overflow-hidden rounded-2xl">
-                <div className="relative aspect-[3/4] overflow-hidden">
+                <div className="relative aspect-[2/3] overflow-hidden">
                   <Image
                     src={image}
                     alt={t(`${key}.title`)}
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
-                    sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                    sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 300px"
+                    quality={90}
+                    unoptimized
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 p-4 md:p-5">
                   <span className="text-xs font-semibold text-seafoam-light tracking-wider">
@@ -69,7 +71,7 @@ export default function Activities() {
                   <h3 className="mt-1 font-heading text-lg font-bold text-white md:text-xl">
                     {t(`${key}.title`)}
                   </h3>
-                  <p className="mt-1 text-xs text-white/70 leading-relaxed line-clamp-3 md:text-sm">
+                  <p className="mt-1 text-xs text-white/80 leading-relaxed md:text-sm">
                     {t(`${key}.description`)}
                   </p>
                 </div>

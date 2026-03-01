@@ -18,57 +18,83 @@ interface GalleryImage {
 
 const images: GalleryImage[] = [
   {
-    src: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80",
-    alt: "Villa exterior with pool",
+    src: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-front.jpg?auto=format&fit=crop&w=800&q=80",
+    alt: "Villa front with pool",
     category: "poolGarden",
     span: "sm:col-span-2 sm:row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1572331165267-854da2b021b1?auto=format&fit=crop&w=600&q=80",
-    alt: "Private swimming pool",
-    category: "poolGarden",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=600&q=80",
-    alt: "Sea view from terrace",
-    category: "poolGarden",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=600&q=80",
-    alt: "Modern kitchen",
-    category: "livingAreas",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=600&q=80",
+    src: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-livingroom.jpg?auto=format&fit=crop&w=600&q=80",
     alt: "Living room",
     category: "livingAreas",
-    span: "sm:col-span-2 sm:row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80",
-    alt: "Main bedroom",
-    category: "bedrooms",
+    src: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-garden.jpg?auto=format&fit=crop&w=600&q=80",
+    alt: "Mediterranian garden",
+    category: "poolGarden",
   },
   {
-    src: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=600&q=80",
-    alt: "Mediterranean garden",
+    src: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-overview.avif?auto=format&fit=crop&w=600&q=80",
+    alt: "Villa overview",
+    category: "poolGarden",
+  },
+  {
+    src: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-outdoor-dining.jpg?auto=format&fit=crop&w=600&q=80",
+    alt: "Outdoor dining area",
     category: "poolGarden",
     span: "sm:col-span-2 sm:row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80",
-    alt: "Outdoor BBQ area",
+    src: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-terrace.avif?auto=format&fit=crop&w=600&q=80",
+    alt: "Terrace with sea views",
     category: "livingAreas",
   },
   {
-    src: "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=600&q=80",
-    alt: "Second bedroom",
+    src: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-lighthouse.jpg?auto=format&fit=crop&w=600&q=80",
+    alt: "Lighthouse nearby",
+    category: "poolGarden",
+    span: "sm:col-span-2 sm:row-span-2",
+  },
+  {
+    src: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-bbq.jpg?auto=format&fit=crop&w=600&q=80",
+    alt: "Barbecue area",
+    category: "poolGarden",
+  },
+  {
+    src: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-sunset2.avif?auto=format&fit=crop&w=600&q=80",
+    alt: "Sunset",
+    category: "poolGarden",
+  },
+  {
+    src: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-room2.jpg?auto=format&fit=crop&w=600&q=80",
+    alt: "Bedroom",
     category: "bedrooms",
   },
   {
-    src: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=600&q=80",
+    src: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-room.jpg?auto=format&fit=crop&w=600&q=80",
+    alt: "Ensuite bedroom",
+    category: "bedrooms",
+    span: "sm:col-span-2 sm:row-span-2",
+  },
+  {
+    src: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-room3.jpg?auto=format&fit=crop&w=600&q=80",
+    alt: "Bedroom",
+    category: "bedrooms",
+  },
+  {
+    src: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-bathroom.avif?auto=format&fit=crop&w=600&q=80",
     alt: "Bathroom",
     category: "bedrooms",
+  },
+  {
+    src: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-bathroom2.avif?auto=format&fit=crop&w=600&q=80",
+    alt: "Bathroom",
+    category: "bedrooms",
+  },
+  {
+    src: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-kitchen.avif?auto=format&fit=crop&w=600&q=80",
+    alt: "Full kitchen",
+    category: "livingAreas",
   },
 ];
 

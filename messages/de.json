@@ -18,6 +18,7 @@
     "bathrooms": "Badezimmer",
     "guests": "Gäste",
     "seaView": "Meerblick",
+    "airCon": "Klimaanlage in allen Zimmern",
     "scroll": "Mehr entdecken"
   },
   "About": {
@@ -36,12 +37,12 @@
       "description": "Ein glitzernder Privatpool, umgeben von mediterraner Vegetation — Ihre eigene Oase unter der menorquinischen Sonne."
     },
     "seaViews": {
-      "title": "Terrasse & Meerblick",
-      "description": "Eine spektakuläre Terrasse mit Panoramablick aufs Meer — der ideale Platz, um die Sonne über dem Mittelmeer untergehen zu sehen."
+      "title": "Terrasse & Sonnenuntergänge",
+      "description": "Erleben Sie einen der atemberaubendsten Sonnenuntergänge Menorcas von der Terrasse der Villa — erste Reihe, um den goldenen Himmel ins Mittelmeer schmelzen zu sehen."
     },
     "garden": {
       "title": "Mediterraner Garten",
-      "description": "Üppige Gärten mit heimischen Pflanzen und schattigen Plätzen, die einen friedlichen Rückzugsort in der Natur schaffen."
+      "description": "Ein üppiger mediterraner Garten mit blühenden Bougainvilleen und Olivenbäumen, der einen bezaubernden und ruhigen Rückzugsort schafft."
     },
     "bbq": {
       "title": "Außen-Grill & Essbereich",
@@ -49,7 +50,7 @@
     },
     "living": {
       "title": "Wohnzimmer",
-      "description": "Ein heller, luftiger Wohnraum mit komfortablen Möbeln und Klimaanlage in allen Bereichen."
+      "description": "Ein heller Wohnraum mit hohen Decken, komfortablen Möbeln und Klimaanlage in allen Bereichen."
     },
     "kitchen": {
       "title": "Voll ausgestattete Küche",
@@ -61,7 +62,7 @@
     },
     "bathrooms": {
       "title": "2 Badezimmer",
-      "description": "Zwei gut ausgestattete Badezimmer mit modernen Armaturen und kostenlosen Toilettenartikeln."
+      "description": "Zwei vollständige Badezimmer, modern und kürzlich renoviert."
     }
   },
   "Gallery": {

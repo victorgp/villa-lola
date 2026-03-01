@@ -18,6 +18,7 @@
     "bathrooms": "Salles de bain",
     "guests": "Voyageurs",
     "seaView": "Vue mer",
+    "airCon": "Clim dans toutes les pièces",
     "scroll": "Découvrir plus"
   },
   "About": {
@@ -36,12 +37,12 @@
       "description": "Une piscine privée scintillante entourée de végétation méditerranéenne — votre oasis personnel sous le soleil minorquin."
     },
     "seaViews": {
-      "title": "Terrasse et vue mer",
-      "description": "Une terrasse spectaculaire avec vue panoramique sur la mer — l'endroit parfait pour admirer le soleil se coucher sur la Méditerranée."
+      "title": "Terrasse et couchers de soleil",
+      "description": "Profitez de l'un des couchers de soleil les plus spectaculaires de Minorque depuis la terrasse de la villa — aux premières loges pour voir le ciel doré se fondre dans la Méditerranée."
     },
     "garden": {
       "title": "Jardin méditerranéen",
-      "description": "Des jardins luxuriants aux plantes locales et coins ombragés, créant un havre de paix naturel."
+      "description": "Un jardin méditerranéen luxuriant avec des bougainvilliers en fleurs et des oliviers, créant un refuge charmant et paisible."
     },
     "bbq": {
       "title": "Barbecue et repas en extérieur",
@@ -49,7 +50,7 @@
     },
     "living": {
       "title": "Salon",
-      "description": "Un espace de vie lumineux et aéré avec mobilier confortable et climatisation."
+      "description": "Un espace de vie lumineux avec de hauts plafonds, un mobilier confortable et la climatisation."
     },
     "kitchen": {
       "title": "Cuisine entièrement équipée",
@@ -61,7 +62,7 @@
     },
     "bathrooms": {
       "title": "2 salles de bain",
-      "description": "Deux salles de bain bien aménagées avec installations modernes et articles de toilette."
+      "description": "Deux salles de bain complètes, modernes et récemment rénovées."
     }
   },
   "Gallery": {

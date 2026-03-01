@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Bed, Bath, Users, Sunset, ChevronDown } from "lucide-react";
+import { Bed, Bath, Users, Sunset, AirVent, ChevronDown } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 const stats = [
@@ -9,6 +9,7 @@ const stats = [
   { icon: Bath, value: "2", key: "bathrooms" },
   { icon: Users, value: "6", key: "guests" },
   { icon: Sunset, value: "", key: "seaView" },
+  { icon: AirVent, value: "", key: "airCon" },
 ] as const;
 
 export default function Hero() {
@@ -22,7 +23,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url("https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=2000&q=80")`,
+          backgroundImage: `url("https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-front.jpg?auto=format&fit=crop&w=2000&q=80")`,
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
@@ -37,12 +38,12 @@ export default function Hero() {
         </svg>
       </div>
 
-      <div className="relative z-10 flex w-full items-center">
+      <div className="relative z-10 w-full">
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="max-w-2xl pl-8 text-left sm:pl-12 lg:pl-20"
+          className="pl-8 text-left sm:pl-12 lg:pl-20"
         >
           <p className="mb-4 text-sm uppercase tracking-[0.3em] text-seafoam-light">
             Cap d&apos;Artrutx, Menorca
@@ -50,18 +51,18 @@ export default function Hero() {
           <h1 className="font-heading text-5xl font-bold text-white/80 sm:text-6xl md:text-7xl lg:text-8xl">
             Villa Lola
           </h1>
-          <p className="mt-4 text-lg font-light text-white/90 sm:text-xl md:text-2xl">
+          <p className="mt-4 max-w-2xl text-lg font-light text-white/90 sm:text-xl md:text-2xl">
             {t("tagline")}
           </p>
 
-          <div className="mt-8 flex flex-wrap gap-3">
+          <div className="mt-8 flex items-center gap-2">
             {stats.map(({ icon: Icon, value, key }) => (
               <div
                 key={key}
-                className="flex items-center gap-2 rounded-full bg-white/15 px-4 py-2 backdrop-blur-sm"
+                className="flex shrink-0 items-center gap-1.5 rounded-full bg-white/15 px-3 py-1.5 backdrop-blur-sm whitespace-nowrap"
               >
-                <Icon className="h-4 w-4 text-white/90" />
-                <span className="text-sm font-medium text-white/90">
+                <Icon className="h-3.5 w-3.5 text-white/90" />
+                <span className="text-xs font-medium text-white/90 sm:text-sm">
                   {value ? `${value} ${t(key)}` : t(key)}
                 </span>
               </div>
