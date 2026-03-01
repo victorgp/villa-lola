@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
-import { useForm } from "react-hook-form";
+import { useState, useEffect, useMemo } from "react";
+import { useForm, Controller } from "react-hook-form";
 import { useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "framer-motion";
 import { Send, CheckCircle, AlertCircle } from "lucide-react";
+import DatePicker, { type BookedRange } from "./DatePicker";
 
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/xojnzvqz";
 
@@ -25,16 +26,42 @@ export default function ContactForm() {
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">(
     "idle"
   );
+  const [bookedRanges, setBookedRanges] = useState<BookedRange[]>([]);
 
   const {
     register,
     handleSubmit,
     watch,
+    control,
     formState: { errors },
   } = useForm<FormData>();
 
   const checkin = watch("checkin");
   const requiredMsg = t("required");
+
+  useEffect(() => {
+    fetch("/api/booked-dates")
+      .then((res) => res.json())
+      .then((data: BookedRange[]) => setBookedRanges(data))
+      .catch(() => {});
+  }, []);
+
+  const checkoutMinDate = useMemo(() => {
+    if (!checkin) return new Date();
+    const d = new Date(checkin + "T00:00:00");
+    d.setDate(d.getDate() + 1);
+    return d;
+  }, [checkin]);
+
+  const checkoutMaxDate = useMemo(() => {
+    if (!checkin) return undefined;
+    const checkinDate = new Date(checkin + "T00:00:00");
+    for (const range of bookedRanges) {
+      const rangeStart = new Date(range.start + "T00:00:00");
+      if (rangeStart > checkinDate) return rangeStart;
+    }
+    return undefined;
+  }, [checkin, bookedRanges]);
 
   const onSubmit = async (data: FormData) => {
     setStatus("sending");
@@ -86,34 +113,42 @@ export default function ContactForm() {
       </div>
 
       <div className="grid gap-3 sm:grid-cols-3">
-        <div>
-          <label className="mb-1 block text-xs font-medium text-navy-light">{t("checkin")}</label>
-          <input
-            type="date"
-            {...register("checkin", { required: requiredMsg })}
-            className={inputClasses}
-          />
-          {errors.checkin && (
-            <p className="mt-0.5 text-xs text-red-600">{errors.checkin.message}</p>
+        <Controller
+          name="checkin"
+          control={control}
+          rules={{ required: requiredMsg }}
+          render={({ field }) => (
+            <DatePicker
+              label={t("checkin")}
+              value={field.value}
+              onChange={field.onChange}
+              bookedRanges={bookedRanges}
+              error={errors.checkin?.message}
+            />
           )}
-        </div>
-        <div>
-          <label className="mb-1 block text-xs font-medium text-navy-light">{t("checkout")}</label>
-          <input
-            type="date"
-            {...register("checkout", {
-              required: requiredMsg,
-              validate: (v) => {
-                if (!checkin || !v) return true;
-                return new Date(v) > new Date(checkin) || t("checkoutError");
-              },
-            })}
-            className={inputClasses}
-          />
-          {errors.checkout && (
-            <p className="mt-0.5 text-xs text-red-600">{errors.checkout.message}</p>
+        />
+        <Controller
+          name="checkout"
+          control={control}
+          rules={{
+            required: requiredMsg,
+            validate: (v) => {
+              if (!checkin || !v) return true;
+              return v > checkin || t("checkoutError");
+            },
+          }}
+          render={({ field }) => (
+            <DatePicker
+              label={t("checkout")}
+              value={field.value}
+              onChange={field.onChange}
+              bookedRanges={bookedRanges}
+              minDate={checkoutMinDate}
+              maxDate={checkoutMaxDate}
+              error={errors.checkout?.message}
+            />
           )}
-        </div>
+        />
         <div>
           <label className="mb-1 block text-xs font-medium text-navy-light">{t("guests")}</label>
           <select
