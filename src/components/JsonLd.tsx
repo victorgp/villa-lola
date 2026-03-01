@@ -8,7 +8,7 @@ export default function JsonLd({ locale }: { locale: string }) {
     description:
       "A charming Menorcan style coastal villa in Cap d'Artrutx, Menorca with sea views, private pool, and stunning sunsets.",
     url: `${SITE_URL}/${locale}`,
-    image: `${SITE_URL}/images/og-villa-lola.jpg`,
+    image: "https://jntdgku86zvk2i5q.public.blob.vercel-storage.com/villa-lola-front.jpg?auto=format&fit=crop&w=1200&q=80",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Cap d'Artrutx, Menorca",
