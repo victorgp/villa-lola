@@ -87,6 +87,7 @@ export default function ContactForm() {
 
       <div className="grid gap-3 sm:grid-cols-3">
         <div>
+          <label className="mb-1 block text-xs font-medium text-navy-light">{t("checkin")}</label>
           <input
             type="date"
             {...register("checkin", { required: requiredMsg })}
@@ -97,6 +98,7 @@ export default function ContactForm() {
           )}
         </div>
         <div>
+          <label className="mb-1 block text-xs font-medium text-navy-light">{t("checkout")}</label>
           <input
             type="date"
             {...register("checkout", {
@@ -113,6 +115,7 @@ export default function ContactForm() {
           )}
         </div>
         <div>
+          <label className="mb-1 block text-xs font-medium text-navy-light">{t("guests")}</label>
           <select
             {...register("guests", { required: requiredMsg })}
             className={inputClasses}

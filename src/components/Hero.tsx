@@ -55,11 +55,11 @@ export default function Hero() {
             {t("tagline")}
           </p>
 
-          <div className="mt-8 flex items-center gap-2">
+          <div className="mt-8 flex flex-wrap items-center gap-2 sm:flex-nowrap">
             {stats.map(({ icon: Icon, value, key }) => (
               <div
                 key={key}
-                className="flex shrink-0 items-center gap-1.5 rounded-full bg-white/15 px-3 py-1.5 backdrop-blur-sm whitespace-nowrap"
+                className="flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1.5 backdrop-blur-sm whitespace-nowrap"
               >
                 <Icon className="h-3.5 w-3.5 text-white/90" />
                 <span className="text-xs font-medium text-white/90 sm:text-sm">
