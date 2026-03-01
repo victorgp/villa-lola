@@ -58,21 +58,31 @@ export default function Location() {
         <div className="overflow-hidden rounded-2xl bg-white shadow-sm border border-sand/20">
           {locations.map(({ key, icon: Icon }, i) => (
             <ScrollReveal key={key} delay={i * 0.06}>
-              <div className={`flex items-center gap-5 px-6 py-5 md:px-8 md:py-6 transition-colors hover:bg-pearl-blue/30 ${i < locations.length - 1 ? "border-b border-sand/20" : ""}`}>
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-ocean/10">
-                  <Icon className="h-5 w-5 text-ocean" />
+              <div className={`flex flex-col gap-3 px-5 py-4 sm:flex-row sm:items-center sm:gap-5 sm:px-6 sm:py-5 md:px-8 md:py-6 transition-colors hover:bg-pearl-blue/30 ${i < locations.length - 1 ? "border-b border-sand/20" : ""}`}>
+                <div className="flex items-center gap-3 sm:contents">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-ocean/10 sm:h-12 sm:w-12">
+                    <Icon className="h-4 w-4 text-ocean sm:h-5 sm:w-5" />
+                  </div>
+                  <div className="flex items-center gap-2 sm:hidden">
+                    <h3 className="font-heading text-base font-bold text-navy">
+                      {t(`${key}.title`)}
+                    </h3>
+                    <span className="inline-block rounded-full bg-ocean/10 px-3 py-1 text-xs font-semibold text-ocean whitespace-nowrap">
+                      {t(`${key}.distance`)}
+                    </span>
+                  </div>
                 </div>
 
                 <div className="min-w-0 flex-1">
-                  <h3 className="font-heading text-lg font-bold text-navy">
+                  <h3 className="hidden sm:block font-heading text-lg font-bold text-navy">
                     {t(`${key}.title`)}
                   </h3>
-                  <p className="mt-0.5 text-sm text-navy-light line-clamp-2">
+                  <p className="text-sm text-navy-light">
                     {t(`${key}.description`)}
                   </p>
                 </div>
 
-                <div className="shrink-0">
+                <div className="hidden shrink-0 sm:block">
                   <span className="inline-block rounded-full bg-ocean/10 px-4 py-1.5 text-xs font-semibold text-ocean whitespace-nowrap">
                     {t(`${key}.distance`)}
                   </span>
